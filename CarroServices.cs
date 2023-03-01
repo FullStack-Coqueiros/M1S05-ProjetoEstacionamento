@@ -1,7 +1,7 @@
 
 namespace estacionamento
 {
-    public class CarroServices
+    public class CarroServices : ICarroService
     {
         static List<Carro> carros = new List<Carro>();
         public void CadastrarCarro(){

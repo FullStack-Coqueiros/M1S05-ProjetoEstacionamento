@@ -1,7 +1,7 @@
 ﻿using estacionamento;
 
-CarroServices _carroServices = new CarroServices();
-TicketsServices _ticketServices = new TicketsServices();
+ICarroService _carroServices = new CarroServices();
+ITicketServices _ticketServices = new TicketsServices();
 
 string opcao;
 

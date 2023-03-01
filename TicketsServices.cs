@@ -1,9 +1,9 @@
 
 namespace estacionamento
 {
-  public class TicketsServices
+  public class TicketsServices : ITicketServices
   {
-    private CarroServices _carroServices = new CarroServices();
+    private ICarroService _carroServices = new CarroServices();
     public void GerarTicket()
     {
       Console.WriteLine("Qual a placa do Veículo");
