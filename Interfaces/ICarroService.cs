@@ -1,6 +1,6 @@
+using estacionamento.Model;
 
-
-namespace estacionamento
+namespace estacionamento.Interfaces
 {
     public interface ICarroService
     {

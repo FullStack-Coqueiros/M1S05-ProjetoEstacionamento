@@ -1,5 +1,5 @@
 
-namespace estacionamento
+namespace estacionamento.Interfaces
 {
     public interface ITicketServices
     {

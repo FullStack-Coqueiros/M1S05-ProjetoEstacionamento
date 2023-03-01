@@ -1,5 +1,7 @@
+using estacionamento.Model;
+using estacionamento.Interfaces;
 
-namespace estacionamento
+namespace estacionamento.Services
 {
   public class TicketsServices : ITicketServices
   {

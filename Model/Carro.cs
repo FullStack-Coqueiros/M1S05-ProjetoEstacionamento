@@ -1,5 +1,5 @@
 
-namespace estacionamento
+namespace estacionamento.Model
 {
     public class Carro
     {
